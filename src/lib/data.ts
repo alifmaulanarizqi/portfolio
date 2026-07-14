@@ -34,7 +34,7 @@ export const profile = {
   github: "https://github.com/alifmaulanarizqi",
   githubHandle: "alifmaulanarizqi",
   tagline:
-    "Two years shipping Android (Kotlin) and Flutter apps with clean architecture, careful state management, and an obsession for reliability.",
+    "Shipping robust mobile architectures and containerized deployments while leading teams toward engineering excellence.",
   summary:
     "Tech Lead and Mobile Developer with hands-on experience spanning Android (Kotlin), Flutter, and full-stack deployments. I design robust mobile architectures, run code reviews, and mentor engineers on tech selection. Additionally, I manage containerized web deployments (frontend, backend, database) using Docker and maintain high-reliability staging and production systems.",
   pullQuote:

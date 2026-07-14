@@ -4,7 +4,8 @@
       "Bash(npm --version)",
       "Bash(npm install *)",
       "Bash(npx tsc *)",
-      "WebFetch(domain:canva.link)"
+      "WebFetch(domain:canva.link)",
+      "Bash(rtk ls *)"
     ]
   },
   "enabledPlugins": {
