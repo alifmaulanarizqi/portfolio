@@ -28,9 +28,9 @@ export default function Projects() {
 
         <Reveal delay={0.05}>
           <h2 className="mt-8 max-w-4xl font-display text-5xl leading-[0.95] tracking-tight text-ink md:text-7xl">
-            Five apps,{" "}
+            Five projects,{" "}
             <span className="italic text-ink-soft">
-              two&nbsp;stacks
+              complete&nbsp;environments
             </span>
             <span className="text-accent">.</span>
           </h2>
@@ -38,9 +38,9 @@ export default function Projects() {
 
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft md:text-xl">
-            Real apps shipped to real users — covering point-of-sale, learning,
-            real-time messaging, AI, and scheduling. Hover any phone to peek
-            inside.
+            A breakdown of my engineering work — ranging from client-side mobile
+            applications to server-side, database, and containerized deployments.
+            Hover any phone to peek inside.
           </p>
         </Reveal>
 
