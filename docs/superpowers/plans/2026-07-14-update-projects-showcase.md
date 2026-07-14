@@ -32,7 +32,7 @@ Update the header text in `src/components/Projects.tsx`:
           <h2 className="mt-8 max-w-4xl font-display text-5xl leading-[0.95] tracking-tight text-ink md:text-7xl">
             Five projects,{" "}
             <span className="italic text-ink-soft">
-              complete&nbsp;environments
+              complete environments
             </span>
             <span className="text-accent">.</span>
           </h2>
