@@ -140,12 +140,12 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     number: "01",
-    title: "Arunahub",
+    title: "Arunahub Mikro",
     org: "PT AIG Nusa Hub",
     year: "2025 — present",
     description:
-      "A modern point-of-sale app for retail operators — built in Kotlin with Jetpack Compose and MVVM, with offline-first sync via Room Database and REST APIs.",
-    tags: ["Kotlin", "Compose", "MVVM", "Room", "Offline", "WebView"],
+      "A modern point-of-sale app for retail operators — built in Kotlin with Jetpack Compose and MVVM, with offline-first sync via Room Database and REST APIs. I also managed and maintained its full-stack containerized deployment using Docker.",
+    tags: ["Kotlin", "Compose", "MVVM", "Room", "Offline", "WebView", "Docker", "Deployment"],
     mock: "pos",
     theme: "light",
     images: [
