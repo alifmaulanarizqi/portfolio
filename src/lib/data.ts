@@ -24,7 +24,7 @@ export type Project = {
 export const profile = {
   name: "Alif Maulana Rizqi",
   initials: "AMR",
-  title: "Mobile Developer",
+  title: "Tech Lead / Mobile Developer",
   location: "Indramayu, West Java",
   email: "alifmaulana312@gmail.com",
   phone: "+62 813-2130-3346",
@@ -36,7 +36,7 @@ export const profile = {
   tagline:
     "Two years shipping Android (Kotlin) and Flutter apps with clean architecture, careful state management, and an obsession for reliability.",
   summary:
-    "Mobile Developer with two years of hands-on experience across Android (Kotlin) and Flutter. I implement features with solid architecture practices — MVVM, clean architecture — wire up REST APIs, and keep app state predictable. Day to day, I optimise UI performance, hunt down crashes, and ship reliable releases through code reviews and structured testing.",
+    "Tech Lead and Mobile Developer with hands-on experience spanning Android (Kotlin), Flutter, and full-stack deployments. I design robust mobile architectures, run code reviews, and mentor engineers on tech selection. Additionally, I manage containerized web deployments (frontend, backend, database) using Docker and maintain high-reliability staging and production systems.",
   pullQuote:
     "Native + cross-platform. One developer, two stacks, the same standard.",
 } as const;
