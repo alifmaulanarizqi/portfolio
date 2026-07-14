@@ -22,7 +22,7 @@
 - Consumes: Profile data structure
 - Produces: Updated working principle pullQuote
 
-- [ ] **Step 1: Edit `profile.pullQuote`**
+- [x] **Step 1: Edit `profile.pullQuote`**
 
 In `src/lib/data.ts`, update `pullQuote` value:
 
@@ -35,11 +35,11 @@ export const profile = {
 } as const;
 ```
 
-- [ ] **Step 2: Run verification build**
+- [x] **Step 2: Run verification build**
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts docs/
 rtk git commit -m "feat: update working principle pullQuote to Option 1"
