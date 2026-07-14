@@ -38,7 +38,7 @@ export const profile = {
   summary:
     "Tech Lead and Mobile Developer with hands-on experience spanning Android (Kotlin), Flutter, and full-stack deployments. I design robust mobile architectures, run code reviews, and mentor engineers on tech selection. Additionally, I manage containerized web deployments (frontend, backend, database) using Docker and maintain high-reliability staging and production systems.",
   pullQuote:
-    "Native + cross-platform. One developer, two stacks, the same standard.",
+    "Clean code is just the start; true engineering is building software that lasts and a team that grows.",
 } as const;
 
 export const stats: { label: string; value: string }[] = [
