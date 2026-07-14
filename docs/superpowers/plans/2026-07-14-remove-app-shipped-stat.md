@@ -22,7 +22,7 @@
 - Consumes: `stats` array structure
 - Produces: Updated `stats` array containing 3 objects (YRS EXPERIENCE, GPA, HONORS)
 
-- [ ] **Step 1: Remove Apps Shipped object**
+- [x] **Step 1: Remove Apps Shipped object**
 
 In `src/lib/data.ts`, update `stats` array:
 
@@ -35,11 +35,11 @@ export const stats: { label: string; value: string }[] = [
 ];
 ```
 
-- [ ] **Step 2: Run verification build**
+- [x] **Step 2: Run verification build**
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts docs/
 rtk git commit -m "feat: remove apps shipped stat card"
