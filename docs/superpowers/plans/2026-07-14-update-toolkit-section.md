@@ -22,7 +22,7 @@
 - Consumes: UI rendering structure for skills section
 - Produces: Updated header and description text in skills section
 
-- [ ] **Step 1: Edit Section 5 headline and description**
+- [x] **Step 1: Edit Section 5 headline and description**
 
 In `src/components/Skills.tsx`, update the headline and paragraph text:
 
@@ -45,7 +45,7 @@ In `src/components/Skills.tsx`, update the headline and paragraph text:
         </Reveal>
 ```
 
-- [ ] **Step 2: Commit**
+- [x] **Step 2: Commit**
 ```bash
 rtk git add src/components/Skills.tsx
 rtk git commit -m "feat: update Section 5 header and description to focus on engineering stack"
@@ -62,7 +62,7 @@ rtk git commit -m "feat: update Section 5 header and description to focus on eng
 - Consumes: `skillGroups` array structure
 - Produces: Updated `skillGroups` list containing the new Deployment group
 
-- [ ] **Step 1: Edit `skillGroups` array**
+- [x] **Step 1: Edit `skillGroups` array**
 
 In `src/lib/data.ts`, append the `"Deployment"` group:
 
@@ -76,11 +76,11 @@ export const skillGroups: { group: string; items: string[] }[] = [
 ];
 ```
 
-- [ ] **Step 2: Run verification build**
+- [x] **Step 2: Run verification build**
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts docs/
 rtk git commit -m "feat: add Deployment to skillGroups in data.ts"
