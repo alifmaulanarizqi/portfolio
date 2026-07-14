@@ -43,7 +43,6 @@ export const profile = {
 
 export const stats: { label: string; value: string }[] = [
   { label: "YRS EXPERIENCE", value: "2+" },
-  { label: "APPS SHIPPED", value: "5" },
   { label: "GPA", value: "3.88" },
   { label: "HONORS", value: "CUM LAUDE" },
 ];
