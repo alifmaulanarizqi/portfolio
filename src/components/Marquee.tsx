@@ -4,7 +4,7 @@ export default function Marquee() {
   const loop = [...marqueeItems, ...marqueeItems];
   return (
     <div className="relative overflow-hidden border-y border-rule bg-bone-soft/50 py-6">
-      <div className="flex animate-marquee whitespace-nowrap will-change-transform [animation-play-state:running] hover:[animation-play-state:paused]">
+      <div className="flex w-max animate-marquee whitespace-nowrap will-change-transform [animation-play-state:running] hover:[animation-play-state:paused]">
         {loop.map((item, i) => (
           <span
             key={i}
