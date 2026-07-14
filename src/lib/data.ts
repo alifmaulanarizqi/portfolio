@@ -67,11 +67,26 @@ export const marqueeItems: string[] = [
 export const experiences: Experience[] = [
   {
     company: "PT AIG Nusa Hub",
+    role: "Tech Lead",
+    type: "Full-Time",
+    period: "Jul 2026 — Present",
+    start: "2026",
+    end: "now",
+    bullets: [
+      "Leading and mentoring the developer team to build and scale web and mobile applications.",
+      "Orchestrating and deploying containerized web applications (frontend, backend, database) using Docker.",
+      "Maintaining deployments and staging/production systems for reliability and uptime.",
+      "Conducting code reviews and providing strategic guidance to team members on technology selection.",
+      "Continuing hands-on mobile application development to ship high-quality features.",
+    ],
+  },
+  {
+    company: "PT AIG Nusa Hub",
     role: "Android Developer",
     type: "Full-Time",
-    period: "Dec 2025 — Present",
+    period: "Dec 2025 — Jul 2026",
     start: "2025",
-    end: "now",
+    end: "2026",
     bullets: [
       "Building a POS application in Kotlin with Jetpack Compose and MVVM clean architecture.",
       "Implemented offline mode with Room Database so the app keeps running without the network.",
