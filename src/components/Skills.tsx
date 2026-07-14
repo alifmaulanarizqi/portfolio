@@ -12,7 +12,7 @@ export default function Skills() {
 
         <Reveal delay={0.05}>
           <h2 className="mt-8 max-w-3xl font-display text-5xl leading-[0.95] tracking-tight text-ink md:text-7xl">
-            The mobile stack I reach for{" "}
+            The engineering stack I reach for{" "}
             <span className="italic text-ink-soft">first</span>
             <span className="text-accent">.</span>
           </h2>
@@ -20,8 +20,9 @@ export default function Skills() {
 
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft md:text-xl">
-            Two languages, two frameworks, and a tight set of architecture and
-            networking tools that keep apps clean, fast, and reliable.
+            A modern set of languages, frameworks, architectural standards, and
+            containerized deployment tools that keep systems clean, reliable, and
+            scalable.
           </p>
         </Reveal>
 
