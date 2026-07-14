@@ -22,7 +22,7 @@
 - Consumes: Flex container layout in Marquee component
 - Produces: Flex container with `w-max` width constraint
 
-- [ ] **Step 1: Edit `src/components/Marquee.tsx`**
+- [x] **Step 1: Edit `src/components/Marquee.tsx`**
 
 Update the flex container class list to include `w-max`:
 
@@ -31,11 +31,11 @@ Update the flex container class list to include `w-max`:
       <div className="flex w-max animate-marquee whitespace-nowrap will-change-transform [animation-play-state:running] hover:[animation-play-state:paused]">
 ```
 
-- [ ] **Step 2: Run verification build**
+- [x] **Step 2: Run verification build**
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/components/Marquee.tsx docs/
 rtk git commit -m "fix: resolve early marquee loop cutoff by adding w-max utility"
