@@ -254,6 +254,10 @@ export const skillGroups: { group: string; items: string[] }[] = [
     group: "Testing & VCS",
     items: ["Integration Test", "Automated UI Test", "Git", "GitLab", "GitHub"],
   },
+  {
+    group: "Deployment",
+    items: ["Docker", "Containerization", "Web Deployment", "Staging & Production", "Maintenance"],
+  },
 ];
 
 export const education: {
