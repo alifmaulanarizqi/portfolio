@@ -61,6 +61,8 @@ export const marqueeItems: string[] = [
   "Dio",
   "WebSocket",
   "REST API",
+  "Docker",
+  "Deployment",
   "★",
 ];
 
