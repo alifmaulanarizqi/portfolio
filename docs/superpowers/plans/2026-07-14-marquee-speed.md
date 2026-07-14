@@ -16,13 +16,13 @@
 ### Task 1: Update Tailwind Config
 
 **Files:**
-- Modify: `tailwind.config.ts:22-25`
+- Modify: `tailwind.config.ts`
 
 **Interfaces:**
 - Consumes: Tailwind config structure
 - Produces: Updated marquee animation speed
 
-- [ ] **Step 1: Edit marquee animation duration**
+- [x] **Step 1: Edit marquee animation duration**
 
 Modify `tailwind.config.ts` to set the marquee animation duration to `20s`:
 
@@ -33,12 +33,12 @@ Modify `tailwind.config.ts` to set the marquee animation duration to `20s`:
       },
 ```
 
-- [ ] **Step 2: Run verification build**
+- [x] **Step 2: Run verification build**
 Verify that Tailwind compiles and builds cleanly:
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add tailwind.config.ts docs/
 rtk git commit -m "feat: double marquee scrolling speed to 20s"

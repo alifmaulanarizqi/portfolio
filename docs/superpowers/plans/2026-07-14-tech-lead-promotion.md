@@ -24,7 +24,7 @@
 - Consumes: Profile data structure
 - Produces: Updated profile title and summary
 
-- [ ] **Step 1: Edit `profile.title` and `profile.summary`**
+- [x] **Step 1: Edit `profile.title` and `profile.summary`**
 
 Modify `src/lib/data.ts` to update `profile.title` and `profile.summary`:
 
@@ -50,10 +50,10 @@ export const profile = {
 } as const;
 ```
 
-- [ ] **Step 2: Verify changes visually in code**
+- [x] **Step 2: Verify changes visually in code**
 Verify that the `profile` object compiles correctly and compiles without issues.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts
 rtk git commit -m "chore: update profile title and summary for Tech Lead promotion"
@@ -70,7 +70,7 @@ rtk git commit -m "chore: update profile title and summary for Tech Lead promoti
 - Consumes: Updated profile details
 - Produces: New `experiences` array with two separate PT AIG Nusa Hub entries
 
-- [ ] **Step 1: Modify `experiences` array**
+- [x] **Step 1: Modify `experiences` array**
 
 In `src/lib/data.ts`, split the `PT AIG Nusa Hub` experience block into two:
 
@@ -109,10 +109,10 @@ export const experiences: Experience[] = [
 ];
 ```
 
-- [ ] **Step 2: Verify formatting and syntax**
+- [x] **Step 2: Verify formatting and syntax**
 Ensure that there are no trailing or missing commas in the `experiences` array and that types match `Experience[]`.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts
 rtk git commit -m "feat: split PT AIG Nusa Hub experience into Tech Lead and Android Developer roles"
@@ -125,13 +125,13 @@ rtk git commit -m "feat: split PT AIG Nusa Hub experience into Tech Lead and And
 **Files:**
 - None (verify compilation and local server)
 
-- [ ] **Step 1: Check typescript compile**
+- [x] **Step 1: Check typescript compile**
 Run the typescript compiler or Next.js build command to verify that no TS compilation errors were introduced.
 
 Run: `rtk npm run build`
 Expected: Successful build completion without errors.
 
-- [ ] **Step 2: Commit**
+- [x] **Step 2: Commit**
 ```bash
 rtk git add docs/
 rtk git commit -m "docs: add design and implementation plan docs"
