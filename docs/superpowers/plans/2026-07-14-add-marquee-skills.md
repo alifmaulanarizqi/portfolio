@@ -22,7 +22,7 @@
 - Consumes: `marqueeItems` array structure
 - Produces: Updated `marqueeItems` containing "Docker" and "Deployment"
 
-- [ ] **Step 1: Add items to `marqueeItems` array**
+- [x] **Step 1: Add items to `marqueeItems` array**
 
 In `src/lib/data.ts`, update the `marqueeItems` array:
 
@@ -46,12 +46,12 @@ export const marqueeItems: string[] = [
 ];
 ```
 
-- [ ] **Step 2: Verify build**
+- [x] **Step 2: Verify build**
 Run Next.js build compilation:
 Run: `rtk npm run build`
 Expected: Successful build completion.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 ```bash
 rtk git add src/lib/data.ts docs/
 rtk git commit -m "feat: add Docker and Deployment to horizontal skills marquee"
